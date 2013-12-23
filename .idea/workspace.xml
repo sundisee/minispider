@@ -20,67 +20,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="poi_jingdian.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_jingdian.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="30" selection-start="2171" selection-end="2171" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="poi_gouwu_content.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_gouwu_content.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1995" selection-end="1995" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mafengwo/spiders/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="9" selection-start="291" selection-end="294" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="poi_meishi.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_meishi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="26" selection-start="3058" selection-end="3058" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="poi_jingdian_content.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_jingdian_content.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="33" selection-start="748" selection-end="748" vertical-scroll-proportion="0.18994413">
+            <state line="62" column="0" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.8011696">
               <folding>
-                <element signature="e#14#28#0" expanded="true" />
-                <element signature="e#962#2576#0" expanded="true" />
+                <element signature="e#997#2674#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="poi_meishi_content.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_meishi_content.py">
+      <file leaf-file-name="poi" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mafengwo/poi">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1996" selection-end="1996" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="poi_yule_content.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_yule_content.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.0">
+            <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,25 +43,66 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mafengwo/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="18" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+            <state line="17" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="middlewares.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mafengwo/middlewares.py">
+      <file leaf-file-name="province.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/baidu/baidu/spiders/province.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="54" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+            <state line="74" column="0" selection-start="3174" selection-end="3174" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#14#28#0" expanded="true" />
+                <element signature="e#2148#3173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="#province2city.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mafengwo/spiders/#province2city.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mafengwo/pipelines.py">
+      <file leaf-file-name="poi_gouwu_content.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_gouwu_content.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="41" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+            <state line="49" column="0" selection-start="2343" selection-end="2343" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#822#2342#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/baidu/baidu/spiders/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="poi_jingdian.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_jingdian.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="7" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="poi_meishi.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_meishi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="9" selection-start="0" selection-end="3163" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -123,9 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/mafengwo/spiders/province.py" />
-        <option value="$PROJECT_DIR$/insert2db.py" />
-        <option value="$PROJECT_DIR$/mafengwo/spiders/poiurl.py" />
         <option value="$PROJECT_DIR$/mafengwo/spiders/poi.py" />
         <option value="$PROJECT_DIR$/mafengwo/spiders/province2city.py" />
         <option value="$PROJECT_DIR$/mafengwo/spiders/#province2city.py" />
@@ -133,19 +125,22 @@
         <option value="$PROJECT_DIR$/mafengwo/spiders/poi_jingdian.py" />
         <option value="$PROJECT_DIR$/mafengwo/spiders/poi_meishi.py" />
         <option value="$PROJECT_DIR$/middlewares.py" />
-        <option value="$PROJECT_DIR$/mafengwo/settings.py" />
+        <option value="$PROJECT_DIR$/mafengwo/spiders/__init__.py" />
         <option value="$PROJECT_DIR$/mafengwo/spiders/poi_meishi_content.py" />
         <option value="$PROJECT_DIR$/mafengwo/spiders/poi_yule_content.py" />
         <option value="$PROJECT_DIR$/mafengwo/spiders/poi_gouwu_content.py" />
-        <option value="$PROJECT_DIR$/mafengwo/spiders/__init__.py" />
+        <option value="$PROJECT_DIR$/vpn.py" />
         <option value="$PROJECT_DIR$/mafengwo/spiders/poi_jingdian_content.py" />
+        <option value="$PROJECT_DIR$/mafengwo/settings.py" />
+        <option value="$USER_HOME$/baidu/baidu/spiders/province.py" />
+        <option value="$USER_HOME$/baidu/baidu/spiders/__init__.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="720" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -173,12 +168,23 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="mafengwo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mafengwo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baidu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -225,7 +231,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,6 +238,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$USER_HOME$/baidu" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -254,7 +260,7 @@
       <recent name="$PROJECT_DIR$/mafengwo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__init__">
+  <component name="RunManager" selected="Python.vpn">
     <configuration default="false" name="poi_jingdian" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,23 +277,6 @@
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="#provincespider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mafengwo/spiders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <module name="mafengwo" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mafengwo/spiders/#provincespider.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -344,6 +333,23 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="vpn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <module name="mafengwo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vpn.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -351,7 +357,7 @@
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
-      <module name="mafengwo" />
+      <module name="baidu" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -386,7 +392,7 @@
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
-      <module name="mafengwo" />
+      <module name="baidu" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -399,18 +405,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.poi_jingdian" />
-      <item index="1" class="java.lang.String" itemvalue="Python.#provincespider" />
-      <item index="2" class="java.lang.String" itemvalue="Python.#province2city" />
-      <item index="3" class="java.lang.String" itemvalue="Python.poi_jingdian_content" />
-      <item index="4" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="1" class="java.lang.String" itemvalue="Python.#province2city" />
+      <item index="2" class="java.lang.String" itemvalue="Python.poi_jingdian_content" />
+      <item index="3" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="4" class="java.lang.String" itemvalue="Python.vpn" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="0" class="java.lang.String" itemvalue="Python.vpn" />
         <item index="1" class="java.lang.String" itemvalue="Python.poi_jingdian_content" />
-        <item index="2" class="java.lang.String" itemvalue="Python.#province2city" />
-        <item index="3" class="java.lang.String" itemvalue="Python.poi_jingdian" />
-        <item index="4" class="java.lang.String" itemvalue="Python.#provincespider" />
+        <item index="2" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="3" class="java.lang.String" itemvalue="Python.#province2city" />
+        <item index="4" class="java.lang.String" itemvalue="Python.poi_jingdian" />
       </list>
     </recent_temporary>
   </component>
@@ -442,18 +448,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="720" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="723" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22285251" sideWeight="0.96494156" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23905997" sideWeight="0.6710963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4090909" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.23601398" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3115578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31063122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -526,111 +532,107 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py">
+    <entry file="file://$PROJECT_DIR$/mafengwo/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" />
+        <state line="2" column="54" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py">
+    <entry file="file://$PROJECT_DIR$/mafengwo/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="11" selection-start="3057" selection-end="3057" vertical-scroll-proportion="0.0" />
+        <state line="6" column="41" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mafengwo/spiders/#provincespider.py">
+    <entry file="file://$PROJECT_DIR$/mafengwo/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" />
+        <state line="12" column="9" selection-start="291" selection-end="294" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mafengwo/items.py">
+    <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_yule_content.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="59" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/Flask-0.9-py2.7.egg/EGG-INFO/dependency_links.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mafengwo/__init__.py">
+    <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_meishi_content.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="2359" selection-end="2359" vertical-scroll-proportion="0.7110482" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mafengwo/poi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vpn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mafengwo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mafengwo/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mafengwo/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="54" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+        <state line="17" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_jingdian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="30" selection-start="2171" selection-end="2171" vertical-scroll-proportion="0.0">
+        <state line="16" column="7" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_meishi_content.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1996" selection-end="1996" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_yule_content.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm20/python_stubs/-2125986627/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1748" column="0" selection-start="58171" selection-end="58171" vertical-scroll-proportion="-0.75581396">
-          <folding>
-            <element signature="e#22745#22827#0" expanded="true" />
-            <element signature="e#57153#57708#0" expanded="true" />
-            <element signature="e#58608#58934#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_meishi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="26" selection-start="3058" selection-end="3058" vertical-scroll-proportion="0.0">
+        <state line="7" column="9" selection-start="0" selection-end="3163" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mafengwo/spiders/__init__.py">
+    <entry file="file://$USER_HOME$/baidu/baidu/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="291" selection-end="294" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/baidu/baidu/spiders/province.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="3174" selection-end="3174" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#14#28#0" expanded="true" />
+            <element signature="e#2148#3173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mafengwo/spiders/#province2city.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_gouwu_content.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1995" selection-end="1995" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="49" column="0" selection-start="2343" selection-end="2343" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#822#2342#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_jingdian_content.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="33" selection-start="748" selection-end="748" vertical-scroll-proportion="0.18994413">
+        <state line="62" column="0" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.8011696">
           <folding>
-            <element signature="e#14#28#0" expanded="true" />
-            <element signature="e#962#2576#0" expanded="true" />
+            <element signature="e#997#2674#0" expanded="true" />
           </folding>
         </state>
       </provider>

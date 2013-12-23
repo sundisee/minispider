@@ -26,6 +26,10 @@ class ProvinceSpider(BaseSpider):
 
     def parse(self, response):
         hxs = HtmlXPathSelector(response)
+        lat = re.compile(r'\"lat\" : parseFloat\(\'(\d+.\d+)',re.S).search(response.body)
+        lng = re.compile(r'\"lng\" : parseFloat\(\'(\d+.\d+)',re.S).search(response.body)
+        poi_latitude = lat.groups()[0]
+        poi_longitude =  lng.groups()[0]
         poi_fen = hxs.select('//span[@class="score"]/em/text()').extract()[0]
         poi_mustgo = hxs.select('//div[@class="star"]/span/text()').extract()[0]
         poi_pj_count = hxs.select('//div[@class="num"]/em/text()').extract()[0]
@@ -35,11 +39,11 @@ class ProvinceSpider(BaseSpider):
 #        poi_latitude = hxs.select('//div[@class="bd"]/span/meta[2]/@content').extract()[0]
         poi_info = hxs.select('//div[@class="poi-intro"]').extract()[0]
 
-        print poi_fen,poi_mustgo,poi_pj_count,poi_quguo_percent,poi_pic
-        sql = 'update  poinfo set poi_fen=%s,poi_mustgo=%s,poi_pj_count=%s,poi_quguo_percent=%s,poi_pic=%s,\
-        poi_info=%s  where poi_id = %s'
+        print poi_fen,poi_mustgo,poi_latitude,poi_longitude,poi_pj_count,poi_quguo_percent,poi_pic,
+        sql = 'update  poinfo set poi_fen=%s,poi_mustgo=%s,poi_pj_count=%s,poi_quguo_percent=%s,poi_pic=%s,poi_longitude=%s,\
+        poi_latitude=%s,poi_info=%s  where poi_id = %s'
         poi_id = re.search('\d+',response.url).group()
-        params = (poi_fen,poi_mustgo,poi_pj_count,poi_quguo_percent,poi_pic,poi_info,poi_id)
+        params = (poi_fen,poi_mustgo,poi_pj_count,poi_quguo_percent,poi_pic,poi_longitude,poi_latitude,poi_info,poi_id)
         n = cur.execute(sql,params)
         conn.commit()
         print 'success'
