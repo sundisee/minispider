@@ -9,7 +9,7 @@ import time
 
 jingdian_urls = []
 jingdian_url = 'http://www.mafengwo.cn/jd/%s/'
-conn=MySQLdb.connect(host='localhost',user='root',passwd='',db='mafengwo',port=3306,charset='utf8')
+conn=MySQLdb.connect(host='localhost',user='root',passwd='qyer',db='mafengwo',port=3306,charset='utf8')
 cur=conn.cursor()
 cur.execute('select city_id from poinfo')
 result = cur.fetchall()

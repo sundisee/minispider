@@ -2,7 +2,7 @@
 #import  MySQLdb
 #fp1 = open('/Users/yuwendy/mafengwo/poi','r').read()
 #city_list = eval(fp1)
-#conn=MySQLdb.connect(host="localhost",user="root",passwd="",db="mafengwo",charset="utf8")
+#conn=MySQLdb.connect(host="localhost",user="root",passwd="qyer",db="mafengwo",charset="utf8")
 #cursor = conn.cursor()
 #sql = "insert into poinfo(province_id,province_name,city_id,city_name) values(%s,%s,%s,%s)"
 #
