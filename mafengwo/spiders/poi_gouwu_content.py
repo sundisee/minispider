@@ -7,7 +7,7 @@ import time
 
 jingdian_poi_urls = []
 jingdian_url = 'http://www.mafengwo.cn/poi/%s.html'
-conn=MySQLdb.connect(host='localhost',user='root',passwd='qyer',db='mafengwo',port=3306,charset='utf8')
+conn=MySQLdb.connect(host='54.201.192.244',user='qyer',passwd='qyer',db='mafengwo',port=3306,charset='utf8')
 cur=conn.cursor()
 cur.execute('select poi_id from poinfo where poi_id IS NOT NULL  and poi_type = "购物"')
 result = cur.fetchall()

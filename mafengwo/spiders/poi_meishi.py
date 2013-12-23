@@ -10,7 +10,7 @@ import time
 
 jingdian_urls = []
 jingdian_url = 'http://www.mafengwo.cn/gw/%s/'
-conn=MySQLdb.connect(host='localhost',user='root',passwd='qyer',db='mafengwo',port=3306,charset='utf8')
+conn=MySQLdb.connect(host='54.201.192.244',user='qyer',passwd='qyer',db='mafengwo',port=3306,charset='utf8')
 cur=conn.cursor()
 cur.execute('select city_id from poinfo')
 result = cur.fetchall()
@@ -50,7 +50,7 @@ class ProvinceSpider(BaseSpider):
             if int(last_page) > 1:
                 yield Request(url=page_url,callback=self.parse_page_url,meta={'i':2,'last_page':last_page})
     def parse_page_url(self,response):
-    #        conn=MySQLdb.connect(host='localhost',user='root',passwd='',db='mafengwo',port=3306,charset='utf8')
+    #        conn=MySQLdb.connect(host='54.201.192.244',user='qyer',passwd='',db='mafengwo',port=3306,charset='utf8')
     #        cur=conn.cursor()
         hxs = HtmlXPathSelector(response)
         i = response.meta['i']
