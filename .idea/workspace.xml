@@ -59,11 +59,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="poi_gouwu_content.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="poi_gouwu_content.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_gouwu_content.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="85" selection-start="893" selection-end="1056" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="11" column="96" selection-start="433" selection-end="433" vertical-scroll-proportion="0.2881356">
+              <folding>
+                <element signature="e#843#2355#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="poi_yule_content.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="poi_yule_content.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_yule_content.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="85" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.6045198">
+            <state line="29" column="85" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,9 +138,9 @@
         <option value="$PROJECT_DIR$/mafengwo/settings.py" />
         <option value="$PROJECT_DIR$/mafengwo/publish.sh" />
         <option value="$PROJECT_DIR$/mafengwo/spiders/__init__.py" />
-        <option value="$PROJECT_DIR$/mafengwo/spiders/poi_gouwu_content.py" />
         <option value="$PROJECT_DIR$/mafengwo/spiders/poi_meishi_content.py" />
         <option value="$PROJECT_DIR$/mafengwo/spiders/poi_yule_content.py" />
+        <option value="$PROJECT_DIR$/mafengwo/spiders/poi_gouwu_content.py" />
       </list>
     </option>
   </component>
@@ -623,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_gouwu_content.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="85" selection-start="893" selection-end="1056" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_meishi_content.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="85" selection-start="951" selection-end="1037" vertical-scroll-proportion="0.0">
@@ -639,8 +634,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_yule_content.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="85" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.6045198">
+        <state line="29" column="85" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_gouwu_content.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="96" selection-start="433" selection-end="433" vertical-scroll-proportion="0.2881356">
+          <folding>
+            <element signature="e#843#2355#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
