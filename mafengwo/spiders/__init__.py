@@ -5,7 +5,7 @@
 #import os
 #print os.path.realpath(__file__)
 
-#import re
+import re
 #s = '$#222'
 #print  re.findall(r'[2|#|$)]',s)
 
@@ -14,3 +14,17 @@
 #    "lng" : parseFloat('116.420531'),
 #    "zoom" : 15 //parseInt('8')
 #};
+
+#s = """var _username = '';
+#var _user_logo = 'http://file.mafengwo.net/images/pp16.gif';
+#var _poi_center = {
+#    lat : parseFloat("36.187430137829"),
+#    lng : parseFloat("117.12521826641"),
+#    zoom : parseInt(15)
+#};
+#var _add_score_info = '';
+#
+#"""
+#
+#lat = re.compile(r'lat : parseFloat\(\"(\d+.\d+)',re.S).search(s)
+#print lat.groups()

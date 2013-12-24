@@ -9,7 +9,7 @@ jingdian_poi_urls = []
 jingdian_url = 'http://www.mafengwo.cn/poi/%s.html'
 conn=MySQLdb.connect(host='54.201.192.244',user='qyer',passwd='qyer',db='mafengwo',port=3306,charset='utf8')
 cur=conn.cursor()
-cur.execute('select poi_id from poinfo where poi_id IS NOT NULL  and poi_type = "购物" order by id')
+cur.execute('select poi_id from poinfo where poi_id IS NOT NULL  and poi_type = "购物" order by id limit 1')
 result = cur.fetchall()
 jingdian_poi_urls = [jingdian_url % i for i in result]
 print jingdian_poi_urls
@@ -26,8 +26,8 @@ class ProvinceSpider(BaseSpider):
 
     def parse(self, response):
         hxs = HtmlXPathSelector(response)
-        lat = re.compile(r'\"lat\" : parseFloat\(\'(\d+.\d+)',re.S).search(response.body)
-        lng = re.compile(r'\"lng\" : parseFloat\(\'(\d+.\d+)',re.S).search(response.body)
+        lat = re.compile(r'lat : parseFloat\(\"(\d+.\d+)',re.S).search(response.body)
+        lng = re.compile(r'lng : parseFloat\(\"(\d+.\d+)',re.S).search(response.body)
         poi_latitude = lat.groups()[0]
         poi_longitude =  lng.groups()[0]
         poi_fen = hxs.select('//span[@class="score"]/em/text()').extract()[0]

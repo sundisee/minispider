@@ -26,8 +26,8 @@ class ProvinceSpider(BaseSpider):
 
     def parse(self, response):
         hxs = HtmlXPathSelector(response)
-        lat = re.compile(r'\"lat\" : parseFloat\(\'(\d+.\d+)',re.S).search(response.body)
-        lng = re.compile(r'\"lng\" : parseFloat\(\'(\d+.\d+)',re.S).search(response.body)
+        lat = re.compile(r'lat : parseFloat\(\"(\d+.\d+)',re.S).search(response.body)
+        lng = re.compile(r'lng : parseFloat\(\"(\d+.\d+)',re.S).search(response.body)
         poi_latitude = lat.groups()[0]
         poi_longitude =  lng.groups()[0]
         poi_fen = hxs.select('//span[@class="score"]/em/text()').extract()[0]
