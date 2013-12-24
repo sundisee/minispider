@@ -26,5 +26,5 @@ var _add_score_info = '';
 
 """
 
-lat = re.compile(r'lng : parseFloat\(\"(-{1}\d+.\d+)\"\)',re.S).search(s)
+lat = re.compile(r'lng : parseFloat\(\"(-{0,1}\d+.\d+)\"\)',re.S).search(s)
 print lat.groups()
