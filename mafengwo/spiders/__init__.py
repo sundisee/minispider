@@ -15,16 +15,16 @@ import re
 #    "zoom" : 15 //parseInt('8')
 #};
 
-#s = """var _username = '';
-#var _user_logo = 'http://file.mafengwo.net/images/pp16.gif';
-#var _poi_center = {
-#    lat : parseFloat("36.187430137829"),
-#    lng : parseFloat("117.12521826641"),
-#    zoom : parseInt(15)
-#};
-#var _add_score_info = '';
-#
-#"""
-#
-#lat = re.compile(r'lat : parseFloat\(\"(\d+.\d+)',re.S).search(s)
-#print lat.groups()
+s = """var _username = ';
+var _user_logo = 'http://file25.mafengwo.net/M00/11/E4/wKgB4lKoFuWAFxRrAAA6n70ASWg64.head.w16.jpeg';
+var _poi_center = {
+    lat : parseFloat("40.7509596"),
+    lng : parseFloat("-73.9903932"),
+    zoom : parseInt(17)
+};
+var _add_score_info = '';
+
+"""
+
+lat = re.compile(r'lng : parseFloat\(\"(-{1}\d+.\d+)\"\)',re.S).search(s)
+print lat.groups()
