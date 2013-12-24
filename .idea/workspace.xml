@@ -20,13 +20,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="poi_jingdian_content.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="poi_jingdian_content.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_jingdian_content.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="97" selection-start="498" selection-end="498" vertical-scroll-proportion="0.29912025">
+            <state line="13" column="97" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#1006#2683#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mafengwo/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="19" selection-start="419" selection-end="419" vertical-scroll-proportion="0.5677966">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,7 +118,6 @@
         <option value="$PROJECT_DIR$/middlewares.py" />
         <option value="$PROJECT_DIR$/mafengwo/spiders/__init__.py" />
         <option value="$PROJECT_DIR$/vpn.py" />
-        <option value="$PROJECT_DIR$/mafengwo/settings.py" />
         <option value="$USER_HOME$/baidu/baidu/spiders/province.py" />
         <option value="$USER_HOME$/baidu/baidu/spiders/__init__.py" />
         <option value="$PROJECT_DIR$/mafengwo/spiders/poi_gouwu_content.py" />
@@ -120,6 +128,7 @@
         <option value="$PROJECT_DIR$/mafengwo/spiders/#province2city.py" />
         <option value="$PROJECT_DIR$/mafengwo/publish.sh" />
         <option value="$PROJECT_DIR$/mafengwo/spiders/poi_jingdian_content.py" />
+        <option value="$PROJECT_DIR$/mafengwo/settings.py" />
       </list>
     </option>
   </component>
@@ -194,24 +203,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mafengwo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mafengwo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mafengwo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mafengwo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spiders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,11 +509,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mafengwo/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/baidu/baidu/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -609,10 +595,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mafengwo/spiders/poi_jingdian_content.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="97" selection-start="498" selection-end="498" vertical-scroll-proportion="0.29912025">
+        <state line="13" column="97" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#1006#2683#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mafengwo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="19" selection-start="419" selection-end="419" vertical-scroll-proportion="0.5677966">
+          <folding />
         </state>
       </provider>
     </entry>
