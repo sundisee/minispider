@@ -15,16 +15,13 @@ import re
 #    "zoom" : 15 //parseInt('8')
 #};
 
-s = """var _username = ';
-var _user_logo = 'http://file25.mafengwo.net/M00/11/E4/wKgB4lKoFuWAFxRrAAA6n70ASWg64.head.w16.jpeg';
-var _poi_center = {
+s = """var _poi_center = {
     lat : parseFloat("0"),
-    lng : parseFloat("-73.9903932"),
-    zoom : parseInt(17)
+    lng : parseFloat("-105.69899749756"),
+    zoom : parseInt(16)
 };
-var _add_score_info = '';
 
 """
 
-lat = re.compile(r'lat : parseFloat\(\"(-{0,1}\d+.{0,1}\d{0,10})\"\)',re.S).search(s)
+lat = re.compile(r'lng : parseFloat\(\"(-{0,1}\d{0,10}.{0,1}\d+)\"\)',re.S).search(s)
 print lat.groups()
